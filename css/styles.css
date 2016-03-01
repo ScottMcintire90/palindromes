@@ -1,7 +1,7 @@
-.notPalindrome {
+#true {
   display: none;
 }
 
-.result {
+#false {
   display: none;
 }
