@@ -20,8 +20,11 @@ $(document).ready(function() {
 
     if (result) {
       $("#true").show();
+      $("#false").hide();
+
     } else {
       $("#false").show();
+      $("#true").hide();
     }
 
   event.preventDefault();
