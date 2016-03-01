@@ -5,9 +5,24 @@
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <script src="js/jquery-1.12.0.min.js"></script>
     <script src="js/scripts.js"></script>
-    <title></title>
+    <title>Palindromes</title>
   </head>
   <body>
+    <div class="container">
+      <h1>Palindrome fun!</h1>
+      <form id="palindrome">
+        <label for="userWord">Type a word to see if it's a palindrome:</label>
+        <input id="userWord" type="text">
+        <button type="submit" class="btn">Find out!</button>
+      </form>
 
+      <div class="result">
+        <p>
+          This is a<span class="notPalindrome">not</span> palindrome!
+        </p>
+      </div>
+
+      </div>
+    </div>
   </body>
 </html>
